@@ -1,0 +1,8 @@
+varType,iconType,iconLabel
+Demographic,users, Demographics
+Location,location-arrow, Location
+Diagnosis,stethoscope, Diagnosis
+Treatment,medkit, Treatment
+Outcome,heartbeat, Outcome
+Genetic,flask, Genetic
+Contact,share-alt,Contact

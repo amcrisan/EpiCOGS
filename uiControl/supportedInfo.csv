@@ -1,0 +1,25 @@
+varName,varLabel,varType,stdVarType
+City,City,Location,string
+State,State/Province,Location,string
+Lat,Latitude,Coordinate,number
+Long,Longtitude,Coordinate,number
+caseID,Case ID,ID,string
+originOfBirth,Origin of Birth,Demographic,category
+gender,Gender,Demographic,category
+MethodOfDetection,Method of Detection,Diagnosis,category-many
+tbType,Type of TB,Diagnosis,category
+diagnosisDate,Diagnosis Date,Diagnosis,date
+treatmentStartDate,Treatment Start Date,Treatment,date
+treatmentEndDate,Treatment End Date,Treatment,date
+treatmentModality,Main Mode of Treatment,Treatment,category-many
+treatmentCompletion,Treatment Completion,Treatment,category-many
+treatmentStartLocation,Treatement Start Location,Treatment,category-many
+treatmentOutcome,Treatment Outcome,Treatment,category
+followUp,Follow Required?,Outcome,category
+causeOfDeath,Cause of Death,Outcome,category
+healthJurLvl1,Health Jurisdiction Level 1,Location,string
+healthJurLvl2,Health Jurisdiction Level 2,Location,string
+MIRU_Pattern,Genotype,Genetic,category-many
+INH,Resistance-INH,Genetic,category
+RMP,Resitance-RMP,Genetic,category
+Ignore,Ignore,Ignore,Ignore
