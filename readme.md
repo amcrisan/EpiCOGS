@@ -12,7 +12,7 @@ If you'd like to know more about my research, what motivated it, and where this 
 
 https://goo.gl/2Ek80Q
 
-**Have question, comments, or concerns? You've got two options:**
+**Have questions, comments, or concerns? You've got two options:**
 
-1. File an issue in this repository
+1. File an issue in this repository!
 2. Submit it as part of this google form: https://goo.gl/1Ee8dk
