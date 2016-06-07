@@ -31,6 +31,22 @@ clinical<-reactive({
               dat<<-dat %>%
                 filter_(filterString)
           }
+        }else if(as.character(labelVal$stdVarType) == "date"){
+          if(!is.null(input[[sprintf("filter_%s",i)]][1])){
+            
+            #note, an assumption here is ymd format that could break everything
+            filterString<-paste(sprintf("(%s > \'%s\')",i,input[[sprintf("filter_%s",i)]][1]),
+                                sprintf("(%s <\'%s\')",i,input[[sprintf("filter_%s",i)]][2]),sep = " & ")
+            
+            #mutate doens't work consistently, so this is a work around.
+            if(class(dat[,sprintf("%s",i)]) == "character"){
+              dat[,sprintf("%s",i)]<-lubridate::ymd(dat[,sprintf("%s",i)])
+            }
+            
+            #now filter
+            dat<<-dat %>%
+              filter_(filterString)
+          }
         }
     })
   })
