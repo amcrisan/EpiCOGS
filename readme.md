@@ -12,6 +12,7 @@ If you'd like to know more about my research, what motivated it, and where this 
 
 https://goo.gl/2Ek80Q
 
+<<<<<<< HEAD
 # Minimum Dataset requirements
 At the very minimum, a dataset must have Latitude and Longituide Co-ordinates. By default, those variables are called "Lat" and "Long", but they can be changed via the uiControl. An example of an minimal dataset is available in the fakeData folder for reference.
 
@@ -22,5 +23,9 @@ As an aside revgeocode is what I used for my datasets, it's available through gg
 # Have questions, comments, or concerns? 
 **You've got two options:**
 
+=======
+**Have questions, comments, or concerns? You've got two options:**
+
+>>>>>>> origin/master
 1. File an issue in this repository!
 2. Submit it as part of this google form: https://goo.gl/1Ee8dk
