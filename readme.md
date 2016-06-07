@@ -23,4 +23,4 @@ As an aside revgeocode is what I used for my datasets, it's available through gg
 **You've got two options:**
 
 1. File an issue in this repository!
-2. Submit it as part of this google form: https://goo.gl/1Ee8dk
+2. Submit it as part of this google form: https://goo.gl/wRvepO
